@@ -1,0 +1,5 @@
+A hardware simulation of Conrad's game of life, written mostly at RTL level, with settings to synthesize for the Altera DE1_SoC board. The simulation displays its state through vga onto computer monitor.
+
+DE1_SoC.sv serves as highest level entity, and settings are controlled through the qsf and qdf files. The project can be tested through modelsim and includes testbenches and modelsim configs for major modules.
+
+Note: the project file may not load correctly from added files from other assignments. Generating a new project and moving settings over will still work.
